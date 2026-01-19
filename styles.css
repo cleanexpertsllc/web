@@ -1,0 +1,546 @@
+/* 
+ * Clean Experts LLC - Professional Cleaning Website
+ * Main Stylesheet
+ */
+
+/* Global Styles */
+:root {
+    --primary-blue: #00bfff;
+    --accent-green: #32cd32;
+    --light-gray: #f8f9fa;
+    --dark-gray: #343a40;
+    --white: #ffffff;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 76px; /* Account for fixed navbar */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-blue);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: #0099cc;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--dark-gray);
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    background-color: var(--primary-blue);
+    border-radius: 2px;
+}
+
+.text-center .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Language Switch */
+.lang-switch-container {
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.lang-switch-container .btn {
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: var(--shadow);
+}
+
+/* Navigation */
+.navbar {
+    padding: 0.8rem 0;
+    transition: var(--transition);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-blue {
+    color: var(--primary-blue);
+    font-weight: 700;
+}
+
+.logo-white {
+    color: var(--white);
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin: 0 3px;
+    font-weight: 700;
+}
+
+.logo-llc {
+    font-size: 0.9rem;
+    color: var(--dark-gray);
+    font-weight: 500;
+    margin-left: 2px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin: 0 8px;
+    padding: 8px 12px !important;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    background-color: rgba(0, 191, 255, 0.1);
+    color: var(--primary-blue);
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('https://thumbs.dreamstime.com/b/cleaning-service-transforming-messy-living-room-clean-tidy-space-professional-tidying-up-making-organized-inviting-398271689.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: var(--white);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+}
+
+.btn-whatsapp-hero {
+    background-color: var(--accent-green);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 18px 35px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 6px 20px rgba(50, 205, 50, 0.4);
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-whatsapp-hero i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.btn-whatsapp-hero:hover {
+    background-color: #28a428;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(50, 205, 50, 0.5);
+}
+
+/* About Section */
+.about-section {
+    background-color: var(--white);
+}
+
+.contact-card {
+    border-radius: 10px;
+    border-top: 5px solid var(--primary-blue);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.contact-card-header {
+    background-color: var(--primary-blue);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-card-body {
+    padding: 30px 20px;
+}
+
+.contact-item h5 {
+    color: var(--dark-gray);
+    margin-bottom: 10px;
+}
+
+/* Services Section */
+.services-section {
+    background-color: var(--light-gray);
+}
+
+.service-card {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 30px 20px;
+    height: 100%;
+    transition: var(--transition);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.service-icon {
+    color: var(--primary-blue);
+    margin-bottom: 20px;
+}
+
+.service-title {
+    color: var(--dark-gray);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.service-description {
+    color: #666;
+}
+
+/* Testimonials */
+.testimonials-section {
+    background-color: var(--white);
+}
+
+.testimonial-card {
+    background-color: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    transition: var(--transition);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 191, 255, 0.05);
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid var(--primary-blue);
+}
+
+.testimonial-rating {
+    color: #ffc107;
+    font-size: 0.9rem;
+}
+
+.testimonial-body {
+    padding: 20px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonial-author {
+    font-weight: 600;
+    color: var(--dark-gray);
+    margin-bottom: 5px;
+}
+
+.testimonial-location {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Gallery */
+.gallery-section {
+    background-color: var(--light-gray);
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: var(--white);
+}
+
+.contact-method-card {
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.contact-method-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.contact-form-container {
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.form-control, .form-select {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 0.25rem rgba(0, 191, 255, 0.25);
+}
+
+.map-container {
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Floating WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--accent-green);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px 20px rgba(50, 205, 50, 0.5);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.whatsapp-float:hover {
+    background-color: #28a428;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 6px 25px rgba(50, 205, 50, 0.7);
+}
+
+/* Footer */
+.footer {
+    background-color: #1a1a1a;
+}
+
+.footer-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.social-icon:hover {
+    background-color: var(--primary-blue);
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .carousel-item {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+    
+    .hero-section {
+        height: 70vh;
+        min-height: 500px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .btn-whatsapp-hero {
+        font-size: 1.1rem;
+        padding: 15px 25px;
+    }
+    
+    .lang-switch-container {
+        top: 80px;
+        right: 15px;
+    }
+    
+    .carousel-item {
+        height: 300px;
+    }
+    
+    .contact-method-card .card-body {
+        padding: 30px 20px !important;
+    }
+    
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        height: 60vh;
+        min-height: 400px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .carousel-item {
+        height: 250px;
+    }
+}
