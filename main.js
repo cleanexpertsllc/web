@@ -23,14 +23,14 @@ const translations = {
     nav_contact: "Contact",
 
     // Hero section
-    hero_title: "Professional Cleaning Services in Norcross, GA",
+    hero_title: "Professional Cleaning & Painting Services in Norcross, GA",
     hero_subtitle: "Your cleaning in expert hands – 8 Years of Excellence",
     hero_button: "Contact Us via WhatsApp",
 
     // About section
     about_title: "About Clean Experts LLC",
     about_description:
-      "Clean Experts LLC has been providing professional cleaning and disinfection services for residential and commercial properties in Norcross, GA, for over 8 years. We specialize in post-construction cleaning, office sanitation, and fully compliant services that leave every space spotless and safe.",
+      "Clean Experts LLC has been providing professional cleaning & painting services for residential and commercial properties in Norcross, GA, for over 8 years. We specialize in post-construction cleaning, office sanitation, and fully compliant services that leave every space spotless and safe.",
     about_feature1_title: "Licensed & Insured",
     about_feature1_desc: "Fully licensed and insured for your peace of mind.",
     about_feature2_title: "Background Checked",
@@ -43,16 +43,16 @@ const translations = {
 
     // Services section
     services_title: "Our Professional Services",
-    services_subtitle: "Specialized cleaning solutions for every need",
+    services_subtitle: "Specialized solutions for every need",
     service1_title: "Post-Construction Cleaning",
     service1_desc:
-      "Thorough cleaning after construction or renovation projects, removing dust, debris, and residues to make your space move-in ready.",
-    service2_title: "Office Disinfection",
+      "Deep cleaning after construction or renovation projects, removing dust, debris, and residues to make your space ready for use.",
+    service2_title: "General Cleaning Service",
     service2_desc:
-      "Comprehensive sanitation and disinfection services for offices and commercial spaces to ensure a healthy work environment.",
-    service3_title: "Compliant Professional Services",
+      "Professional cleaning services for homes, offices, and commercial spaces, tailored to meet each client's specific needs.",
+    service3_title: "Painting Service",
     service3_desc:
-      "Fully compliant cleaning services that meet industry standards and regulations for residential and commercial properties.",
+      "Interior and exterior painting with high-quality finishes, using professional materials to renew and transform your spaces.",
 
     // Testimonials
     testimonials_title: "What Our Customers Say",
@@ -67,22 +67,23 @@ const translations = {
       '"Reliable, professional, and thorough. Clean Experts has been servicing our home for 3 years now. Always impeccable!"',
     testimonial3_location: "Duluth, GA",
     testimonial4_text:
-      '"After our renovation, the cleanup seemed overwhelming. Clean Experts handled it perfectly. Will use again!"',
-    testimonial4_location: "Peachtree Corners, GA",
+      '"After the construction of my home, the cleanup felt overwhelming, but Clean Experts delivered an excellent cleaning service. I was especially impressed that they also handled the painting, which made the whole post‑construction process so much easier. Highly recommended!"',
+    testimonial4_location: "Norcross, GA",
 
     // Gallery
     gallery_title: "Our Work Gallery",
     gallery_subtitle: "Before and after transformations",
     gallery_slide1_title: "Living Room Transformation",
     gallery_slide1_desc: "From messy to perfectly clean and organized.",
-    gallery_slide2_title: "Kitchen Deep Cleaning",
+    gallery_slide2_title: "Office Cleaning",
     gallery_slide2_desc: "Professional degreasing and sanitization.",
-    gallery_slide3_title: "Office Disinfection",
-    gallery_slide3_desc: "Comprehensive sanitization for workplaces.",
+    gallery_slide3_title: "Windows Cleaning",
+    gallery_slide3_desc: "Professional window cleaning for a clear view.",
     gallery_slide4_title: "Post-Construction Cleanup",
     gallery_slide4_desc: "Removing all construction debris and dust.",
-    gallery_slide5_title: "Commercial Cleaning",
-    gallery_slide5_desc: "After-hours cleaning for business facilities.",
+    gallery_slide5_title: "Painting Service",
+    gallery_slide5_desc:
+      "Professional interior and exterior painting with high-quality finishes.",
 
     // Contact section
     contact_section_title: "Get in Touch Today!",
@@ -102,8 +103,8 @@ const translations = {
     form_service: "Select Service",
     form_service_placeholder: "Choose a service...",
     form_service_option1: "Post-Construction Cleaning",
-    form_service_option2: "Office Disinfection",
-    form_service_option3: "Compliant Professional Services",
+    form_service_option2: "Professional Cleaning Services",
+    form_service_option3: "Painting Service",
     form_service_option4: "Other Cleaning Service",
     form_message: "Message",
     form_message_placeholder: "Please describe your cleaning needs...",
@@ -112,7 +113,7 @@ const translations = {
 
     // Footer
     footer_description:
-      "Professional cleaning services in Norcross, GA with over 8 years of experience. Licensed, insured, and committed to excellence.",
+      "Professional cleaning & Painting services in Norcross, GA with over 8 years of experience. Licensed, insured, and committed to excellence.",
     footer_quick_links: "Quick Links",
     footer_social: "Follow Us",
     footer_copyright: "© 2026 Clean Experts LLC. All rights reserved.",
@@ -132,7 +133,7 @@ const translations = {
     nav_contact: "Contacto",
 
     // Hero section
-    hero_title: "Servicios Profesionales de Limpieza en Norcross, GA",
+    hero_title: "Servicios Profesionales de Limpieza y Pintura en Norcross, GA",
     hero_subtitle: "Tu limpieza en manos expertas – 8 Años de Excelencia",
     hero_button: "Contáctanos por WhatsApp",
 
@@ -159,12 +160,12 @@ const translations = {
     service1_title: "Limpieza Post-Construcción",
     service1_desc:
       "Limpieza exhaustiva después de proyectos de construcción o renovación, eliminando polvo, escombros y residuos para que su espacio esté listo para mudarse.",
-    service2_title: "Desinfección de Oficinas",
+    service2_title: "Servicios Generales de Limpieza",
     service2_desc:
       "Servicios integrales de sanitización y desinfección para oficinas y espacios comerciales que garantizan un ambiente de trabajo saludable.",
-    service3_title: "Servicios Profesionales Compatibles",
+    service3_title: "Servicios de Pintura",
     service3_desc:
-      "Servicios de limpieza completamente compatibles que cumplen con los estándares y regulaciones de la industria para propiedades residenciales y comerciales.",
+      "Servicios de pintura profesional para interiores y exteriores con acabados de alta calidad.",
 
     // Testimonials
     testimonials_title: "Lo Que Dicen Nuestros Clientes",
@@ -180,24 +181,25 @@ const translations = {
       '"Confiable, profesional y minucioso. Clean Experts ha estado sirviendo nuestro hogar durante 3 años. ¡Siempre impecable!"',
     testimonial3_location: "Duluth, GA",
     testimonial4_text:
-      '"Después de nuestra renovación, la limpieza parecía abrumadora. Clean Experts lo manejó perfectamente. ¡Los usaré de nuevo!"',
-    testimonial4_location: "Peachtree Corners, GA",
+      '"Después de la construcción de mi casa, la limpieza parecía abrumadora, pero Clean Experts entregó un excelente servicio de limpieza. Me impresionó especialmente que también hicieran el pintado, lo que hizo todo el proceso post-construcción mucho más fácil. ¡Altamente recomendado!"',
+    testimonial4_location: "Norcross, GA",
 
     // Gallery
     gallery_title: "Galería de Nuestro Trabajo",
     gallery_subtitle: "Transformaciones antes y después",
     gallery_slide1_title: "Transformación de Sala de Estar",
     gallery_slide1_desc: "De desordenado a perfectamente limpio y organizado.",
-    gallery_slide2_title: "Limpieza Profunda de Cocina",
+    gallery_slide2_title: "Limpieza de Oficina",
     gallery_slide2_desc: "Desengrasado y sanitización profesional.",
-    gallery_slide3_title: "Desinfección de Oficina",
-    gallery_slide3_desc: "Sanitización integral para lugares de trabajo.",
+    gallery_slide3_title: "Limpieza de Ventanas",
+    gallery_slide3_desc:
+      "Limpieza profesional de ventanas para una vista clara.",
     gallery_slide4_title: "Limpieza Post-Construcción",
     gallery_slide4_desc:
       "Eliminando todos los escombros y polvo de construcción.",
-    gallery_slide5_title: "Limpieza Comercial",
+    gallery_slide5_title: "Servicios de Pintura",
     gallery_slide5_desc:
-      "Limpieza después del horario laboral para instalaciones comerciales.",
+      "Servicios de pintura profesional para interiores y exteriores con acabados de alta calidad.",
 
     // Contact section
     contact_section_title: "¡Ponte en Contacto Hoy!",
@@ -217,8 +219,8 @@ const translations = {
     form_service: "Seleccionar Servicio",
     form_service_placeholder: "Elige un servicio...",
     form_service_option1: "Limpieza Post-Construcción",
-    form_service_option2: "Desinfección de Oficinas",
-    form_service_option3: "Servicios Profesionales Compatibles",
+    form_service_option2: "Servicios Profesionales de Limpieza",
+    form_service_option3: "Servicios de Pintura",
     form_service_option4: "Otro Servicio de Limpieza",
     form_message: "Mensaje",
     form_message_placeholder:
@@ -228,7 +230,7 @@ const translations = {
 
     // Footer
     footer_description:
-      "Servicios profesionales de limpieza en Norcross, GA con más de 8 años de experiencia. Con licencia, asegurados y comprometidos con la excelencia.",
+      "Servicios profesionales de limpieza y pintura en Norcross, GA con más de 8 años de experiencia. Con licencia, asegurados y comprometidos con la excelencia.",
     footer_quick_links: "Enlaces Rápidos",
     footer_social: "Síguenos",
     footer_copyright:
@@ -442,9 +444,8 @@ function sendWhatsAppMessage() {
   // Encode the message for URL
   const encodedMessage = encodeURIComponent(whatsappMessage);
 
-  // IMPORTANT: Replace this phone number with your actual WhatsApp business number
-  // Current placeholder: +15551234567
-  const whatsappNumber = "+15551234567"; // CHANGE THIS TO YOUR ACTUAL NUMBER
+  // WhatsApp number to send the message to
+  const whatsappNumber = "+16785497440";
 
   // Open WhatsApp with the pre-filled message
   window.open(
@@ -469,13 +470,13 @@ function getServiceName(serviceValue) {
     en: {
       "post-construction": "Post-Construction Cleaning",
       "office-disinfection": "Office Disinfection",
-      "compliant-services": "Compliant Professional Services",
+      "compliant-services": "Painting Service",
       other: "Other Cleaning Service",
     },
     es: {
       "post-construction": "Limpieza Post-Construcción",
       "office-disinfection": "Desinfección de Oficinas",
-      "compliant-services": "Servicios Profesionales Compatibles",
+      "compliant-services": "Servicios de Pintura",
       other: "Otro Servicio de Limpieza",
     },
   };
